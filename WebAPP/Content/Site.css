@@ -1,0 +1,102 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* ------------ Global styles* ------------ */
+caption {
+    text-align: center; /* Центрирует текст заголовка */
+    font-weight: bold; /* Добавляет жирное начертание текста заголовка */
+    padding: 10px; /* Добавляет отступы вокруг заголовка */
+    font-size: 20px;
+}
+h1 {
+    margin-top: 20px; /* Отступ от верхней части контейнера */
+}
+.center-table {
+  margin: 0 auto; /* Центрирует таблицу по горизонтали */
+}
+
+.center-table td {
+  text-align: center; /* Отцентровывает содержимое ячейки по центру */
+}
+.centered-cell {
+    vertical-align: middle;
+    text-align: center;
+}
+.font_p{
+    font-size: 16px;
+}
+
+
+/* ------------ Task #1 / #4 ------------ */
+.table {
+    width: 80%;
+    margin-bottom: 20px;
+    border: 3px solid #dddddd;
+    border-collapse: collapse;
+    margin: 0 auto;
+    font-size: 16px;
+}
+.table th {
+	font-weight: bold;
+	padding: 5px;
+	background: #efefef;
+	border: 3px solid #dddddd;
+    text-align: center;
+}
+.table td {
+	border: 3px solid #dddddd;
+	padding: 5px;
+}
+
+/* ------------ Task #2 ------------ */
+.container_Task_2 {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.center_h1 {
+    text-align: center;
+}
+
+.center_h2 {
+    margin-top: 20px;
+}
+
+.task_2_ol {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.task_2_li {
+    font-size: 16px;
+}
+
+.task_2_ol .task_2_li {
+    margin-bottom: 10px;
+}
+
+strong {
+    font-weight: bold;
+}

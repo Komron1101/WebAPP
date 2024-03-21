@@ -1,0 +1,52 @@
+﻿
+@{
+    ViewBag.Title = "Task_4";
+}
+
+<h2>Задача №4</h2>
+
+<div class="container">
+    <table class="table">
+        <caption>Таблица продуктов</caption>
+        <thead>
+            <tr>
+                <th>Название</th>
+                <th>Вес (г)</th>
+                <th>Цена ($ / кг)</th>
+                <th>Сумма ($)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Яблоки</td>
+                <td>200</td>
+                <td>2.50</td>
+                <td>@ViewBag.sum_1</td>
+            </tr>
+            <tr>
+                <td>Молоко</td>
+                <td>1000</td>
+                <td>1.20</td>
+                <td>@ViewBag.sum_2</td>
+            </tr>
+            <tr>
+                <td>Хлеб</td>
+                <td>500</td>
+                <td>1.00</td>
+                <td>@ViewBag.sum_3</td>
+            </tr>
+            <tr>
+                <td>Мясо</td>
+                <td>500</td>
+                <td>7.50</td>
+                <td>@ViewBag.sum_4</td>
+            </tr>
+            <tr>
+                <td>Яйца</td>
+                <td>360</td>
+                <td>4.00</td>
+                <td>@ViewBag.sum_5</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
